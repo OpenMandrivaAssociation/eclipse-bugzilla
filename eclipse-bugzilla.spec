@@ -20,7 +20,7 @@ Epoch: 0
 Summary:        Bugzilla bug tracking integration for Eclipse
 Name:           %{eclipse_name}-bugzilla
 Version:        %{version_majmin}.%{version_micro}
-Release:        %mkrel 3.2
+Release:        %mkrel 3.3
 License:        CPL
 Group:          Development/Java
 #URL:                
@@ -50,7 +50,7 @@ BuildRequires:  ant
 BuildRequires:  eclipse-platform
 BuildRequires:  eclipse-jdt
 BuildRequires:  eclipse-pde
-BuildRequires:  jpackage-utils
+BuildRequires:  java-rpmbuild
 BuildRequires:  libswt3-gtk2
 BuildRequires:  xmlrpc >= 0:2.0.1
 
