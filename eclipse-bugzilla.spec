@@ -64,7 +64,6 @@ BuildRequires:  java >= 0:1.4.2
 BuildRequires:  java-devel >= 0:1.4.2
 %endif
 
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The eclipse-bugzilla package contains Eclipse features and plugins for
