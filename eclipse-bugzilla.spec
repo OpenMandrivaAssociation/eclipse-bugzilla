@@ -20,7 +20,7 @@ Epoch: 0
 Summary:        Bugzilla bug tracking integration for Eclipse
 Name:           %{eclipse_name}-bugzilla
 Version:        %{version_majmin}.%{version_micro}
-Release:        %mkrel 3.3
+Release:        %mkrel 3.4
 License:        CPL
 Group:          Development/Java
 #URL:                
