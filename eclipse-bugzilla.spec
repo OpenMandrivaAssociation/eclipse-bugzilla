@@ -84,7 +84,7 @@ popd
 %build
 
 # See comments in the script to understand this.
-/bin/sh -x %{eclipse_base}/buildscripts/copy-platform SDK %{eclipse_base}
+/bin/sh -x %{eclipse_lib_base}/buildscripts/copy-platform SDK %{eclipse_base}
 SDK=$(cd SDK && pwd)
 
 mkdir home
